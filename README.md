@@ -24,7 +24,7 @@ Our proposed model was trained on OmniPose, CellPose, Sartorius, and CellSeg Cha
 ![image](https://github.com/user-attachments/assets/e1964eb1-b1d4-4c54-ba38-2b46e7f59d4a)
 ![image](https://github.com/user-attachments/assets/4cd21bd8-a13b-4b39-9833-e5e1acdc8f9a)
 ### Model Testing process 
-![result_github-min](https://github.com/user-attachments/assets/36223929-655d-4fc9-8e32-e106932a8374)
+![result_github](https://github.com/user-attachments/assets/fde30a4d-ad3b-4159-9d5e-a0e66ba78adb)
 
 ## Comparation
 ![comaparation3](https://github.com/user-attachments/assets/ad9811bf-afe9-4729-9aa7-84b246322c82)
