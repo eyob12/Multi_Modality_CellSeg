@@ -9,9 +9,9 @@ The source code for this repository will be made publicly available upon the acc
 
 ## Key Features
 ### 1. Image Standardization Module
-[X] Resolves multi-modality heterogeneity by unifying inputs into consistent spatial and channel dimensions
+- [X] Resolves multi-modality heterogeneity by unifying inputs into consistent spatial and channel dimensions
 ### 2. Shape-Aware Classification
-[X] Classify the dataset into five classes based on  shape information such as round, tiny/tightly
+- [X] Classify the dataset into five classes based on  shape information such as round, tiny/tightly
 packed, irregular, elongated, and clustered/densely packed forms.
 ### 3. Auto-Point Prompt Generation (APPGen)
 - [X] Eliminates manual prompting by automating point prompt generation
@@ -20,16 +20,17 @@ packed, irregular, elongated, and clustered/densely packed forms.
 
 ## Results
 Our proposed model was trained on OmniPose, CellPose, Sartorius, and CellSeg Challenge datasets. We evaluate the performance of our model on NeurIPS Cell Segmentation Challenge test datasets.
-![2Sample_Result_SegModel](https://github.com/user-attachments/assets/e4ae2111-4cac-47f7-bbed-107a5604d068)
-Proposed segmentation model performance on different multi-modality data and classes.
+<img src="![2Sample_Result_SegModel](https://github.com/user-attachments/assets/e4ae2111-4cac-47f7-bbed-107a5604d068)" alt="Proposed segmentation model performance on different multi-modality data and classes." width="800"/>
 
 ## Comparation
 ![comaparation3](https://github.com/user-attachments/assets/ad9811bf-afe9-4729-9aa7-84b246322c82)
 
+For more details, refer to the [documentation](#documentation).
+
 
 ## Repository Structure
 
-- **preprocessing/**  
+- **preprocessing**  
   Contains scripts for refining ground truth to a distance map and multi-modality image standardization.
 
 - **training.ipynb**  
@@ -38,13 +39,13 @@ Proposed segmentation model performance on different multi-modality data and cla
 - **test.ipynb**  
   Jupyter Notebook for testing the multi-modality cell Segmentation model.
 
-- **Saved_model/**  
+- **Saved_model**  
   Pretrained models.
 
-- **evaluation/**  
+- **evaluation**  
   Scripts for calculating evaluation metrics such as MSE, IoU, F1, and PQ.
 
-- **datasets/**  
+- **datasets**  
   Scripts for dataset preparation.
 
 ---
