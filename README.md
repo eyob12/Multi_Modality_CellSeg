@@ -2,8 +2,7 @@
 A universal cell segmentation model designed to accurately segment cells of varying shapes across a wide range of multimodality microscopic images, including brightfield, fluorescent, phase contrast (PC), and differential interference contrast (DIC) modalities.
 
 This repository contains the implementation of a novel Multi-Modality Cell Segmentation framework.
-## Code Availability
-The source code for this repository will be made publicly available upon the acceptance of the associated research paper. Stay tuned for updates!
+
 ## Overview of Methodology
 ![sample_methodology6](https://github.com/user-attachments/assets/522fb8b0-d593-4705-a0c0-9abbd11ba9d0)
 
@@ -35,7 +34,7 @@ Our proposed model was trained on OmniPose, CellPose, Sartorius, and CellSeg Cha
 - **preprocessing**  
   Contains scripts for refining ground truth to a distance map and multi-modality image standardization.
 
-- **training.ipynb**  
+- **Boundary-Aware SAM Adaptation.ipynb**  
   Jupyter Notebook for training the multi-modality cell Segmentation model.
 
 - **test.ipynb**  
